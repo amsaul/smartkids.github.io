@@ -29,10 +29,10 @@ const Footer: React.FC = () => {
           <div className="w-full md:w-1/4">
             <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
             <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-blue-400"><Facebook size={24} /></a>
-              <a href="#" className="text-white hover:text-blue-400"><Twitter size={24} /></a>
-              <a href="#" className="text-white hover:text-blue-400"><Instagram size={24} /></a>
-              <a href="#" className="text-white hover:text-blue-400"><Youtube size={24} /></a>
+              <a href="https://www.tiktok.com/@smartkidske?_t=8qhKNxUMczO&_r=1" className="text-white hover:text-blue-400"><Facebook size={24} /></a>
+              <a href="https://www.tiktok.com/@smartkidske?_t=8qhKNxUMczO&_r=1" className="text-white hover:text-blue-400"><Twitter size={24} /></a>
+              <a href="https://www.instagram.com/smart_kidske/profilecard/?igsh=MWU2bHNtMzRkeTR0bA==" className="text-white hover:text-blue-400"><Instagram size={24} /></a>
+              <a href="https://www.tiktok.com/@smartkidske?_t=8qhKNxUMczO&_r=1" className="text-white hover:text-blue-400"><Youtube size={24} /></a>
             </div>
           </div>
         </div>
