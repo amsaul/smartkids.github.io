@@ -45,9 +45,9 @@ const AboutPage: React.FC = () => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { name: "Bosire Saul", role: "Lead Instructor", image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" },
-              { name: "Bosire Saul", role: "Curriculum Developer", image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" },
-              { name: "Bosire Saul", role: "Student Mentor", image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" },
+              { name: "Bosire Saul", role: "Lead Instructor", image: "https://images.unsplash.com/photo-1546776230-bb86256870ce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJvYm90aWN8ZW58MHx8MHx8fDA%3D" },
+              { name: "Bosire Saul", role: "Curriculum Developer", image: "https://images.unsplash.com/photo-1546776230-bb86256870ce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJvYm90aWN8ZW58MHx8MHx8fDA%3D" },
+              { name: "Bosire Saul", role: "Student Mentor", image: "https://images.unsplash.com/photo-1546776230-bb86256870ce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJvYm90aWN8ZW58MHx8MHx8fDA%3D" },
             ].map((member, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md text-center">
                 <img src={member.image} alt={member.name} className="w-32 h-32 rounded-full mx-auto mb-4" />
@@ -64,7 +64,7 @@ const AboutPage: React.FC = () => {
             By choosing SmartKids, you're not just enrolling in a coding course – you're joining a community dedicated to nurturing the tech leaders of tomorrow. Together, we can unlock the potential in every child and prepare them for a world where digital literacy is key.
           </p>
           <div className="text-center">
-            <a href="/courses" className="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300">Explore Our Courses</a>
+            <a href="/CoursesPage" className="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300">Explore Our Courses</a>
           </div>
         </section>
       </div>
